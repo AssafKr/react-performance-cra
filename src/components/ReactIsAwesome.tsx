@@ -23,8 +23,8 @@ export const ReactIsAwesome: React.FC = () => {
     >
       {title}
       <button
-        style={{ width: "fit-content" }}
-        onClick={() => setPart(part + 1)}
+        style={{ width: "fit-content", marginTop: "20px", fontSize: "28px" }}
+        onClick={() => setPart((part) => part + 1)}
       >
         click me!
       </button>
